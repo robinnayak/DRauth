@@ -1,0 +1,8 @@
+# To add bootstrap 
+1: npm i bootstrap jquery popper.js
+then to import in react file
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
