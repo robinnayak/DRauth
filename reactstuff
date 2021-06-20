@@ -6,3 +6,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+*******************************************************
+to add fontawesome 
+npm i --save @fortawesome/fontawesome-svg-core
+  npm install --save @fortawesome/free-solid-svg-icons
+  npm install --save @fortawesome/react-fontawesome
+  
+  for importing in react file process 
+
+example:-
+1: import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+2: import { faCoffee,faSpinner, faGlassMartini} from '@fortawesome/free-solid-svg-icons'
+           // importing to the file directly icon
+           {
+            <FontAwesomeIcon icon={faCoffee} size="6x" />
+            <FontAwesomeIcon icon={faGlassMartini} size="6x" />
+            <FontAwesomeIcon icon={faSpinner} size="6x" spin transform="shrink-6 left-4" />
+            <FontAwesomeIcon icon={faSpinner} size="6x" pulse />
+            }
